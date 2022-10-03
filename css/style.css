@@ -1,3 +1,7 @@
+header {
+    background-color: #f0f0f0;
+}
+
 body
 {
   margin: 0;
@@ -149,4 +153,58 @@ body
 #menuToggle input:checked ~ ul
 {
   transform: none;
+}
+
+
+
+
+
+.image {
+    float: center;
+    margin-left: 30%;
+    margin-top: 10%;
+    width: 400px;
+    height: 400px;
+}
+
+section {
+    padding: 50px 100px;
+}
+
+.main {
+    align-items: center;
+    background: rgb(116, 80, 80);
+}
+
+.main h2 {
+    color: black;
+    font-size: 1.4em;
+    font-weight: 800;
+}
+
+.main ol {
+    color: black;
+    padding-left: 50px;
+}
+
+.main ul {
+    color: black;
+    padding-left: 50px;
+}
+
+.main p {
+    color: #000;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.title {
+    justify-content: center;
+    color: #f7f8f9;
+    font-size: 2.2em;
+    font-weight: 1000;
+}
+
+.projects {
+    background-color: rgb(35, 34, 34);
 }
