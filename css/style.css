@@ -208,3 +208,7 @@ section {
 .projects {
     background-color: rgb(35, 34, 34);
 }
+
+.projects .project .link {
+    color: white;
+}
